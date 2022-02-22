@@ -6,73 +6,69 @@ export default function WidgetLg() {
   };
   return (
     <div className="widgetLg">
-      <h3 className="widgetLgTitle">Latest transactions</h3>
+      <h3 className="widgetLgTitle">Latest Tracking</h3>
       <table className="widgetLgTable">
         <tr className="widgetLgTr">
-          <th className="widgetLgTh">Customer</th>
+          <th className="widgetLgTh">Tag ID</th>
+          <th className="widgetLgTh">Name</th>
+          <th className="widgetLgTh">Location</th>
           <th className="widgetLgTh">Date</th>
-          <th className="widgetLgTh">Amount</th>
-          <th className="widgetLgTh">Status</th>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img
-              src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt=""
-              className="widgetLgImg"
-            />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">#0001</span>
           </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
-          <td className="widgetLgAmount">$122.00</td>
-          <td className="widgetLgStatus">
-            <Button type="Approved" />
-          </td>
+          <td className="widgetLgDate">Christian Silva</td>
+          <td className="widgetLgAmount">Room #2</td>
+          <td className="widgetLgStatus">1/31/2022</td>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img
-              src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt=""
-              className="widgetLgImg"
-            />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">#0031</span>
           </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
-          <td className="widgetLgAmount">$122.00</td>
-          <td className="widgetLgStatus">
-            <Button type="Declined" />
-          </td>
+          <td className="widgetLgDate">Isaiah Williams</td>
+          <td className="widgetLgAmount">Room #1</td>
+          <td className="widgetLgStatus"> 1/31/2022</td>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img
-              src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt=""
-              className="widgetLgImg"
-            />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">#0005</span>
           </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
-          <td className="widgetLgAmount">$122.00</td>
-          <td className="widgetLgStatus">
-            <Button type="Pending" />
-          </td>
+          <td className="widgetLgDate">Dylan Sauerbrun</td>
+          <td className="widgetLgAmount">Room #1</td>
+          <td className="widgetLgStatus">1/31/2022</td>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img
-              src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt=""
-              className="widgetLgImg"
-            />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">#0021</span>
           </td>
-          <td className="widgetLgDate">2 Jun 2021</td>
-          <td className="widgetLgAmount">$122.00</td>
-          <td className="widgetLgStatus">
-            <Button type="Approved" />
+          <td className="widgetLgDate">Aundre’ Fredericks</td>
+          <td className="widgetLgAmount">Room #4</td>
+          <td className="widgetLgStatus">1/31/2022</td>
+        </tr>
+        <tr className="widgetLgTr">
+          <td className="widgetLgUser">
+            <span className="widgetLgName">#0001</span>
           </td>
+          <td className="widgetLgDate">Christian Silva</td>
+          <td className="widgetLgAmount">Room #4</td>
+          <td className="widgetLgStatus">1/31/2022</td>
+        </tr>
+        <tr className="widgetLgTr">
+          <td className="widgetLgUser">
+            <span className="widgetLgName">#0011</span>
+          </td>
+          <td className="widgetLgDate">Test User</td>
+          <td className="widgetLgAmount">Room #4</td>
+          <td className="widgetLgStatus">1/31/2022</td>
+        </tr>
+        <tr className="widgetLgTr">
+          <td className="widgetLgUser">
+            <span className="widgetLgName">#0031</span>
+          </td>
+          <td className="widgetLgDate">Tony Stark</td>
+          <td className="widgetLgAmount">Room #4</td>
+          <td className="widgetLgStatus">1/31/2022</td>
         </tr>
       </table>
     </div>

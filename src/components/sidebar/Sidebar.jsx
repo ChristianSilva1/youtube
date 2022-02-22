@@ -12,6 +12,10 @@ import {
   ChatBubbleOutline,
   WorkOutline,
   Report,
+  TrackChanges,
+  Dashboard,
+  Camera,
+  Style,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
@@ -23,18 +27,18 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <Link to="/" className="link">
-            <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
-            </li>
+              <li className="sidebarListItem active">
+                <Dashboard className="sidebarIcon" />
+                Home
+              </li>
             </Link>
             <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
+              <TrackChanges className="sidebarIcon" />
+              Live Indoor Tracking
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
+              <Camera className="sidebarIcon" />
+              Live Video Feed
             </li>
           </ul>
         </div>
@@ -49,14 +53,10 @@ export default function Sidebar() {
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
-                Products
+                <Style className="sidebarIcon" />
+                Tags
               </li>
             </Link>
-            <li className="sidebarListItem">
-              <AttachMoney className="sidebarIcon" />
-              Transactions
-            </li>
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
               Reports
@@ -67,33 +67,8 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Notifications</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <MailOutline className="sidebarIcon" />
-              Mail
-            </li>
-            <li className="sidebarListItem">
-              <DynamicFeed className="sidebarIcon" />
-              Feedback
-            </li>
-            <li className="sidebarListItem">
-              <ChatBubbleOutline className="sidebarIcon" />
-              Messages
-            </li>
-          </ul>
-        </div>
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Staff</h3>
-          <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <WorkOutline className="sidebarIcon" />
-              Manage
-            </li>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
               <Report className="sidebarIcon" />
-              Reports
+              Alerts
             </li>
           </ul>
         </div>
