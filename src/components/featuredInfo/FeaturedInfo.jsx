@@ -21,7 +21,7 @@ export default function FeaturedInfo() {
       <div className="featuredItem">
         <span className="featuredTitle">Number of Tags</span>
         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">52</span>>
+          <span className="featuredMoney">52</span>
         </div>
         <span className="featuredSub">Total assigned</span>
       </div>

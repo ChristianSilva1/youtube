@@ -32,14 +32,18 @@ export default function Sidebar() {
                 Home
               </li>
             </Link>
-            <li className="sidebarListItem">
-              <TrackChanges className="sidebarIcon" />
-              Live Indoor Tracking
-            </li>
-            <li className="sidebarListItem">
-              <Camera className="sidebarIcon" />
-              Live Video Feed
-            </li>
+            <Link to="/LiveTrack" className="link">
+              <li className="sidebarListItem">
+                <TrackChanges className="sidebarIcon" />
+                Live Indoor Tracking
+              </li>
+            </Link>
+            <Link to="/LiveFeed" className="link">
+              <li className="sidebarListItem">
+                <Camera className="sidebarIcon" />
+                Live Video Feed
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
